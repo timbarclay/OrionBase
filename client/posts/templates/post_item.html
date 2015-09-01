@@ -1,7 +1,11 @@
 <template name="postItem">
-  <h3>
-    {{#linkTo route='singlePost'}}
-      {{title}}
-    {{/linkTo}}
-  </h3>
+  {{#linkTo route='singlePost'}}
+  <div class="col-lg-8">
+    <h3>{{title}}</h3>
+    <p>{{subtitle}}</p>
+  </div>
+  <div class="col-lg-4">
+    <img class="img-responsive" src={{image.url}} />
+  </div>
+  {{/linkTo}}
 </template>

@@ -13,3 +13,6 @@ iron:router
 orionjs:summernote
 sacha:spin
 orionjs:pages
+orionjs:filesystem
+vsivsi:orion-file-collection
+orionjs:image-attribute

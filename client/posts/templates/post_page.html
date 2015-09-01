@@ -1,4 +1,7 @@
 <template name="postPage">
   <h2>{{title}}</h2>
-  <p>{{{body}}}</p>
+  {{#if image}}
+    <img class="img-responsive" src="{{image.url}}" />
+  {{/if}}
+  <p class="post-body">{{{body}}}</p>
 </template>
