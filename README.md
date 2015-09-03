@@ -10,3 +10,5 @@ Some useful references for future-me to use when adding to/improving this:
 * [Move a non-CMS web app to Orion](http://orionjs.org/tutorials/microscope)
 * [Simple Orion blog example](https://github.com/orionjs/examples/tree/master/blog)
 * [Orion kitchen sink example](https://github.com/orionjs/examples/tree/master/standard)
+* [Implementing infinite scroll](http://www.meteorpedia.com/read/Infinite_Scrolling)
+* [Implementing a native-feeling app](https://hansoftx.com/blog/building-an-ultra-responsive-ui)
